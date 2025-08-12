@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mawakeb Mediks — Home</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="assets/logo.svg">
+<link rel="preconnect" href="https://images.unsplash.com">
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container wrap">
+    <a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt="">The Mawakeb Mediks</a>
+    <div class="links">
+      <a href="index.html">Home</a><a href="about.html">About Us</a><a href="research.html">Research Hub</a>
+      <a href="events.html">Events & Calendar</a><a href="blog.html">Blog</a><a href="resources.html">Medical Resources</a>
+      <a href="join.html">Join Us</a><a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container wrap">
+    <div class="fade-up">
+      <span class="tag">Student-led • Science-driven</span>
+      <h1>Where curiosity meets care.</h1>
+      <p>We are The Mawakeb Mediks — a high school medical club advancing health literacy, research, and service across our community.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a class="btn" href="join.html">Join the club</a>
+        <a class="btn alt" href="research.html">Explore research</a>
+      </div>
+      <div class="kpis" style="margin-top:22px">
+        <div class="kpi"><strong>40+</strong><span>Active members</span></div>
+        <div class="kpi"><strong>12</strong><span>Research projects</span></div>
+        <div class="kpi"><strong>8</strong><span>Annual events</span></div>
+        <div class="kpi"><strong>3</strong><span>Community drives</span></div>
+      </div>
+    </div>
+    <div class="fade-up">
+      <!-- Inline medical illustration -->
+      <svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" aria-label="Students in lab coats">
+        <rect width="640" height="480" rx="24" fill="#F4F7FB"/>
+        <circle cx="210" cy="170" r="56" fill="#E8EEF8"/>
+        <rect x="160" y="220" width="100" height="160" rx="16" fill="#0B3D91" opacity=".15"/>
+        <circle cx="420" cy="160" r="54" fill="#E8EEF8"/>
+        <rect x="372" y="210" width="100" height="170" rx="16" fill="#0B3D91" opacity=".15"/>
+        <rect x="300" y="260" width="40" height="120" rx="8" fill="#E53935" opacity=".9"/>
+        <rect x="310" y="292" width="20" height="56" rx="4" fill="#fff"/>
+        <text x="32" y="440" font-family="Segoe UI, Arial" font-size="20" fill="#0B3D91">The Mawakeb Mediks</text>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container grid" style="grid-template-columns:repeat(3,1fr)">
+    <div class="card fade-up">
+      <div class="title">Mission</div>
+      <p class="muted">Cultivate future-ready healthcare leaders through research, outreach, and skill-building.</p>
+    </div>
+    <div class="card fade-up">
+      <div class="title">What we do</div>
+      <p class="muted">Run workshops, publish student articles, and lead health campaigns on campus and beyond.</p>
+    </div>
+    <div class="card fade-up">
+      <div class="title">Get involved</div>
+      <p class="muted">No experience required. Curiosity, commitment, and teamwork are all you need.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="grid" style="grid-template-columns:2fr 1fr 1fr">
+      <div><div class="badge"><img src="assets/logo.svg" alt="" style="width:18px;height:18px"><span>The Mawakeb Mediks</span></div>
+        <p style="margin:10px 0 0;color:#A7B4CC">A student-led medical club fostering research, service, and health literacy.</p></div>
+      <div><strong>Connect</strong>
+        <ul style="list-style:none;padding:0;margin:10px 0 0"><li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li></ul></div>
+      <div><strong>School</strong>
+        <ul style="list-style:none;padding:0;margin:10px 0 0"><li><a href="#" target="_blank" rel="noopener">Al Mawakeb School</a></li><li><a href="#" target="_blank" rel="noopener">Counseling & Activities</a></li></ul></div>
+    </div>
+    <p style="margin:18px 0 0;color:#8CA0C0">© <span id="year"></span> The Mawakeb Mediks • Al Mawakeb School</p>
+  </div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</footer>
+
+</body>
+</html>

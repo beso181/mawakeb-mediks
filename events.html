@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mawakeb Mediks — Events & Calendar</title>
+<link rel="stylesheet" href="styles.css"><link rel="icon" href="assets/logo.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+<script defer src="script.js"></script>
+</head><body>
+
+<nav class="navbar"><div class="container wrap">
+  <a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt="">The Mawakeb Mediks</a>
+  <div class="links">
+    <a href="index.html">Home</a><a href="about.html">About Us</a><a href="research.html">Research Hub</a>
+    <a href="events.html">Events & Calendar</a><a href="blog.html">Blog</a><a href="resources.html">Medical Resources</a>
+    <a href="join.html">Join Us</a><a href="contact.html">Contact</a>
+  </div>
+</div></nav>
+
+<section class="section"><div class="container">
+  <h1 class="fade-up">Events & Calendar</h1>
+  <p class="fade-up" style="max-width:760px;color:var(--muted)">Workshops, guest lectures, and health drives — all in one place.</p>
+  <div id="calendar" class="calendar fade-up"></div>
+</div></section>
+
+<footer class="footer"><div class="container"><div class="grid" style="grid-template-columns:2fr 1fr 1fr">
+  <div><div class="badge"><img src="assets/logo.svg" alt="" style="width:18px;height:18px"><span>The Mawakeb Mediks</span></div>
+    <p style="margin:10px 0 0;color:#A7B4CC">A student-led medical club fostering research, service, and health literacy.</p></div>
+  <div><strong>Connect</strong><ul style="list-style:none;padding:0;margin:10px 0 0">
+    <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li></ul></div>
+  <div><strong>School</strong><ul style="list-style:none;padding:0;margin:10px 0 0">
+    <li><a href="#" target="_blank" rel="noopener">Al Mawakeb School</a></li><li><a href="#" target="_blank" rel="noopener">Counseling & Activities</a></li></ul></div>
+</div><p style="margin:18px 0 0;color:#8CA0C0">© <span id="year"></span> The Mawakeb Mediks • Al Mawakeb School</p></div>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer>
+
+</body></html>
